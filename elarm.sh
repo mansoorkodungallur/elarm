@@ -1,4 +1,4 @@
-udo touch /etc/apt/apt.conf.d/02proxy
+sudo touch /etc/apt/apt.conf.d/02proxy
 
 #sudo echo "Acquire::http { Proxy \"http://192.168.12.7:3142\"; };" > /etc/apt/apt.conf.d/02proxy
 
