@@ -4,7 +4,7 @@ sudo touch /etc/apt/apt.conf.d/02proxy
 
 #sudo echo "Acquire::http { Proxy \"http://192.168.12.7:3142\"; };" > /etc/apt/apt.conf.d/02proxy
 
-echo "Installing libncurses5-dev bison flex texinfo minicom xientd tftp tftpd picocom lrzsz gawk lzop g++ u-boot-tools dfu-programmer"
+echo "Installing libncurses5-dev bison flex texinfo minicom xientd tftp-hpa tftpd-hpa picocom lrzsz gawk lzop g++ u-boot-tools dfu-programmer"
 
 sudo apt-get install --assume-yes libncurses5-dev bison flex texinfo minicom xinetd tftp tftpd picocom lrzsz gawk lzop g++ u-boot-tools patch dfu-programmer
 
