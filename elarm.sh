@@ -6,7 +6,7 @@ sudo touch /etc/apt/apt.conf.d/02proxy
 
 echo "Installing libncurses5-dev bison flex texinfo minicom xientd tftp-hpa tftpd-hpa picocom lrzsz gawk lzop g++ u-boot-tools dfu-programmer"
 
-sudo apt-get install --assume-yes sudo apt-get install build-essential gcc libncurses5-dev bison flex texinfo minicom xinetd tftp tftpd picocom lrzsz gawk lzop g++ u-boot-tools patch dfu-programmer
+sudo apt-get install --assume-yes build-essential gcc libncurses5-dev bison flex texinfo minicom xinetd tftp tftpd picocom lrzsz gawk lzop g++ u-boot-tools patch dfu-programmer
 
 echo "Creating tftp directory"
 sudo touch /etc/xinetd.d/tftp
